@@ -1,4 +1,4 @@
-# _global
+# global-scope
 
 <!-- [![build status][1]][2]
 
@@ -16,7 +16,7 @@ var window = require("global-scope/window")
 
 ## Installation
 
-`npm install _global`
+`npm install global-scope`
 
 ## Contributors
 
@@ -24,7 +24,7 @@ var window = require("global-scope/window")
 
 ## MIT Licenced
 
-  [1]: https://secure.travis-ci.org/Colingo/_global.png
-  [2]: http://travis-ci.org/Colingo/_global
-  [3]: http://ci.testling.com/Colingo/_global.png
-  [4]: http://ci.testling.com/Colingo/_global
+  [1]: https://secure.travis-ci.org/Colingo/global-scope.png
+  [2]: http://travis-ci.org/Colingo/global-scope
+  [3]: http://ci.testling.com/Colingo/global-scope.png
+  [4]: http://ci.testling.com/Colingo/global-scope
