@@ -9,9 +9,9 @@ Require global variables
 ## Example
 
 ```js
-var global = require("_global")
-var document = require("_global/document")
-var window = require("_global/window")
+var global = require("global-scope")
+var document = require("global-scope/document")
+var window = require("global-scope/window")
 ```
 
 ## Installation
