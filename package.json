@@ -1,6 +1,6 @@
 {
   "name": "_global",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Require global variables",
   "keywords": [],
   "author": "Raynos <raynos2@gmail.com>",
@@ -16,8 +16,7 @@
     "url": "https://github.com/Colingo/_global/issues",
     "email": "raynos2@gmail.com"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "tape": "~0.2.2",
     "browserify": "https://github.com/raynos/node-browserify/tarball/master",
