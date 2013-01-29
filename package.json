@@ -1,6 +1,6 @@
 {
   "name": "global-scope",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Require global variables",
   "keywords": [],
   "author": "Raynos <raynos2@gmail.com>",
