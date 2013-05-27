@@ -5,13 +5,7 @@
   "keywords": [],
   "author": "Raynos <raynos2@gmail.com>",
   "repository": "git://github.com/Colingo/global.git",
-  "main": "index",
-  "browser": {
-    "./index.js": "./browser.js",
-    "./process.js": "./browser-process.js",
-    "./document.js": "./browser-document.js",
-    "./window.js": "./browser-window.js"
-  },
+  "main": "window.js",
   "homepage": "https://github.com/Colingo/global",
   "contributors": [
     {
