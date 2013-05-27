@@ -1,4 +1,1 @@
-/*global document*/
-if (typeof document !== "undefined") {
-    module.exports = document
-}
+module.exports = require("min-document")

@@ -6,6 +6,12 @@
   "author": "Raynos <raynos2@gmail.com>",
   "repository": "git://github.com/Colingo/global.git",
   "main": "index",
+  "browser": {
+    "./index.js": "./browser.js",
+    "./process.js": "./browser-process.js",
+    "./document.js": "./browser-document.js",
+    "./window.js": "./browser-window.js"
+  },
   "homepage": "https://github.com/Colingo/global",
   "contributors": [
     {
@@ -16,7 +22,10 @@
     "url": "https://github.com/Colingo/global/issues",
     "email": "raynos2@gmail.com"
   },
-  "dependencies": {},
+  "dependencies": {
+    "process": "~0.5.1",
+    "min-document": "~0.2.2"
+  },
   "devDependencies": {
     "tape": "~0.2.2",
     "browserify": "https://github.com/raynos/node-browserify/tarball/master",
