@@ -16,6 +16,9 @@
     "url": "https://github.com/Colingo/global/issues",
     "email": "raynos2@gmail.com"
   },
+  "browser": {
+    "min-document": false
+  },
   "dependencies": {
     "process": "~0.5.1",
     "min-document": "~0.2.2"
