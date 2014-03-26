@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "process": "~0.5.1",
-    "min-document": "~0.2.2"
+    "min-document": "^2.0.0"
   },
   "devDependencies": {
     "tape": "^2.12.0"
