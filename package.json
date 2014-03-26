@@ -24,9 +24,7 @@
     "min-document": "~0.2.2"
   },
   "devDependencies": {
-    "tape": "~0.2.2",
-    "browserify": "https://github.com/raynos/node-browserify/tarball/master",
-    "testem": "~0.2.56"
+    "tape": "^2.12.0"
   },
   "licenses": [
     {

@@ -1,5 +1,5 @@
 if (typeof document !== "undefined") {
-    module.exports = document
+    module.exports = document;
 } else {
-    module.exports = require("min-document")
+    module.exports = require("min-document");
 }
