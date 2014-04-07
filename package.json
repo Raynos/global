@@ -20,8 +20,8 @@
     "min-document": false
   },
   "dependencies": {
-    "process": "~0.5.1",
-    "min-document": "^2.0.0"
+    "min-document": "^2.5.0",
+    "process": "~0.5.1"
   },
   "devDependencies": {
     "tape": "^2.12.0"
