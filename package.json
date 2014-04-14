@@ -20,7 +20,7 @@
     "min-document": false
   },
   "dependencies": {
-    "min-document": "^2.5.0",
+    "min-document": "^2.6.1",
     "process": "~0.5.1"
   },
   "devDependencies": {
