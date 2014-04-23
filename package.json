@@ -17,7 +17,8 @@
     "email": "raynos2@gmail.com"
   },
   "browser": {
-    "min-document": false
+    "min-document": false,
+    "individual": false
   },
   "dependencies": {
     "min-document": "^2.6.1",
