@@ -21,7 +21,6 @@
     "individual": false
   },
   "dependencies": {
-    "individual": "^2.0.0",
     "min-document": "^2.6.1",
     "process": "~0.5.1"
   },
