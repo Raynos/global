@@ -5,11 +5,11 @@ var minDoc = require('min-document');
 if (typeof document !== 'undefined') {
     module.exports = document;
 } else {
-    var document = topLevel['__GLOBAL_DOCUMENT_CACHE@4'];
+    var doccy = topLevel['__GLOBAL_DOCUMENT_CACHE@4'];
 
-    if (!document) {
-        document = topLevel['__GLOBAL_DOCUMENT_CACHE@4'] = minDoc;
+    if (!doccy) {
+        doccy = topLevel['__GLOBAL_DOCUMENT_CACHE@4'] = minDoc;
     }
 
-    module.exports = document;
+    module.exports = doccy;
 }
