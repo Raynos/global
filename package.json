@@ -27,12 +27,7 @@
   "devDependencies": {
     "tape": "^2.12.0"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://github.com/Raynos/global/raw/master/LICENSE"
-    }
-  ],
+  "license": "MIT",
   "scripts": {
     "test": "node ./test",
     "build": "browserify test/index.js -o test/static/bundle.js",
