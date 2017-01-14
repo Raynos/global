@@ -1,9 +1,11 @@
 if (typeof window !== "undefined") {
-    module.exports = window;
+    var win = window;
 } else if (typeof global !== "undefined") {
-    module.exports = global;
+    var win = global;
 } else if (typeof self !== "undefined"){
-    module.exports = self;
+    var win = self;
 } else {
-    module.exports = {};
+    var win = {};
 }
+
+module.exports = win;
