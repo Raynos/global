@@ -1,9 +1,13 @@
+var win;
+
 if (typeof window !== "undefined") {
-    module.exports = window;
+    win = window;
 } else if (typeof global !== "undefined") {
-    module.exports = global;
+    win = global;
 } else if (typeof self !== "undefined"){
-    module.exports = self;
+    win = self;
 } else {
-    module.exports = {};
+    win = {};
 }
+
+module.exports = win;
