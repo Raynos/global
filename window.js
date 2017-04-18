@@ -1,11 +1,13 @@
+var win;
+
 if (typeof window !== "undefined") {
-    var win = window;
+    win = window;
 } else if (typeof global !== "undefined") {
-    var win = global;
+    win = global;
 } else if (typeof self !== "undefined"){
-    var win = self;
+    win = self;
 } else {
-    var win = {};
+    win = {};
 }
 
 module.exports = win;
