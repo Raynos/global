@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "min-document": "^2.19.0",
-    "process": "~0.5.1"
+    "process": "^0.11.10"
   },
   "devDependencies": {
     "tape": "^2.12.0"
